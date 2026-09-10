@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection - Machine Learning Project
 
+🌐 **Live Demo:** https://credit-card-fraud-detection-116.streamlit.app
+
 End-to-End Machine Learning Project for Credit Card Fraud Detection with interactive Streamlit deployment.
 
 ---
@@ -184,10 +186,21 @@ python src/train_pipeline.py
 
 ## 🌐 Streamlit Cloud Deployment
 
-This repository is pre-configured for one-click deployment on **Streamlit Community Cloud**:
+The application is deployed and publicly accessible on **Streamlit Community Cloud**:
+- **Live Demo:** [https://credit-card-fraud-detection-116.streamlit.app](https://credit-card-fraud-detection-116.streamlit.app/)
+
+To deploy your own instance from GitHub:
 1. Push the repository to GitHub.
 2. Go to [share.streamlit.io](https://share.streamlit.io/).
 3. Select your repository, set the branch to `main`, and main file path to `app.py`.
 4. Click **Deploy**.
 
 > **Note on Model Artifacts:** The lightweight serialized model artifacts (`final_model.joblib`, `scaler.joblib`, `model_config.json`) total less than 400 KB and are included in the repository, allowing full inference on Streamlit Cloud without needing the 144 MB raw CSV file.
+
+---
+
+## 🔗 Project Links
+
+- **Live Streamlit App:** [https://credit-card-fraud-detection-116.streamlit.app](https://credit-card-fraud-detection-116.streamlit.app/)
+- **GitHub Repository:** [https://github.com/Suprajakshaya116/credit-card-fraud-detection](https://github.com/Suprajakshaya116/credit-card-fraud-detection)
+
